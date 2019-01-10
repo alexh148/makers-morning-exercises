@@ -5,7 +5,7 @@ describe Library do
   before(:each) do
     @library = Library.new
   end
-  
+
   it 'can return a list of all books' do
     expected_books = [
       {title: 'POODR', author: 'Sandi Metz', subject: 'OOP'},
@@ -13,7 +13,7 @@ describe Library do
       {title: 'Eloquent JavaScript', author: 'Marijn Haverbeke', subject: 'JS'},
       {title: 'The Well Grounded Rubyist', author: 'Sandi Metz', subject: 'Ruby'},
     ]
-    expect(@library.books).to match_array(expected_books)
+    expect(@library.books).to eq expected_books
   end
 
   it 'can add a new book' do
@@ -28,8 +28,12 @@ describe Library do
   end
 
   it 'can delete a book' do
+    book = {title: 'POODR', author: 'Sandi Metz', subject: 'OOP'}
+    @library.remove_book('POODR')
+    expect(@library.books).not_to include(book)
   end
 
   it 'can return a list of all books by subject' do
+    expect(@library.all_books_by_subject('Ruby')).to eq ([{:author=>"Zed Shaw", :subject=>"Ruby", :title=>"Learn Ruby The Hard Way"}, {:author=>"Sandi Metz", :subject=>"Ruby", :title=>"The Well Grounded Rubyist"}])
   end
 end
