@@ -11,6 +11,14 @@ describe '#user_stories' do
 # As a shopper
 # So that I can buy an item
 # I would like to be able to scan items at the checkout
+  it 'should be able to scan items at the checkout' do
+    checkout = Checkout.new
+    item_1 = Item.new(5)
+    item_2 = Item.new(3)
+    checkout.scan(item_1)
+    checkout.scan(item_2)
+    expect(checkout.total).to eq 8
+  end
 
 # As a shopper
 # So that I know how much to pay
