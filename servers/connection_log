@@ -1,0 +1,26 @@
+Script started on Mon Jan 21 12:36:24 2019
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[1m[31mt[0m[39m[1m[31mt[1m[31me[0m[39m[1m[31mt[1m[31me[1m[31ml[0m[39m[1m[31ml[1m[31mn[0m[39m[1m[31mn[1m[31me[0m[39m[0m[32mt[0m[32me[0m[32ml[0m[32mn[0m[32me[32mt[39m -n [4mconnection_log[24m[K[14D[24mt[24mr[24ma[24mc[24me[24mf[24mi[24ml[24me[K[2C([22;33m[1mmaster[01;31m✱[0m)[00m [12D[11Dh          [10D10.0.209.125 2345[K[?1l>[?2004l
+]2;telnet 10.0.209.125 2345]1;telnetTrying 10.0.209.125...
+^C
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[32mtelnet[39m 10.0.209.125 2345[K   2[?1l>[?2004l
+]2;telnet 10.0.209.125 22]1;telnetTrying 10.0.209.125...
+^C
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[32mtelnet[39m 10.0.209.125 22[K[?1l>[?2004l
+]2;telnet 10.0.209.125 22]1;telnetTrying 10.0.209.125...
+^C
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[32mtelnet[39m 10.0.209.125 22[K [K[1C([22;33m[1mmaster[01;31m✱[0m)[00m [11D            localhost 22[?1l>[?2004l
+]2;telnet localhost 22]1;telnetTrying ::1...
+Connected to localhost.
+Escape character is '^]'.
+What do you say?
+quit
+You said: quit. Goodbye!
+Connection closed by foreign host.
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[32mtelnet[39m localhost 22[12D10.0.209.125 22[K[?1l>[?2004l
+]2;telnet 10.0.209.125 22]1;telnetTrying 10.0.209.125...
+telnet: connect to address 10.0.209.125: Operation timed out
+telnet: Unable to connect to remote host
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h[32mtelnet[39m 10.0.209.125 22[K[?1l>[?2004l
+]2;telnet 10.0.209.125 22]1;telnetTrying 10.0.209.125...
+^C
+[1m[7m%[27m[1m[0m                                                                                ]2;alexhutchings@bgl-mac-009154: ~/Projects/makers-morning-exercises/servers]1;..cises/servers[0m[27m[24m[J[[37m[1malexhutchings[0m[00m:[31m...s-morning-exercises/servers[00m]$ [K[21C([22;33m[1mmaster[01;31m✱[0m)[00m [31D[?1h=[?2004h
